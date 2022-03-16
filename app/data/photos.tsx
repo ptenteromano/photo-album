@@ -1,5 +1,6 @@
 // This needs to be rebuilt everytime!
 /*
+https://stackoverflow.com/questions/2727167/how-do-you-get-a-list-of-the-names-of-all-files-present-in-a-directory-in-node-j
 const photosPath = path.join(__dirname, "../", "public/photos/");
   console.log({ photosPath });
   const fileNames: Array<string> = [];
