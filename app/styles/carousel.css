@@ -31,3 +31,17 @@ html {
 .horizontal-snap img {
   display: block;
 }
+
+/* Enlarge images on large screens */
+.carousel-image {
+  height: 100%;
+}
+
+/* Responive images - shrink images down when screen is 680px or smaller */
+@media only screen and (max-width: 680px) {
+  .carousel-image {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+}
